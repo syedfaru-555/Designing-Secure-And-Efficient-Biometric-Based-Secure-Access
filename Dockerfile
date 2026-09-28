@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install --no-cache-dir django numpy pandas opencv-python-headless
+RUN pip install --no-cache-dir django numpy pandas opencv-python-headless pymysql
 
 EXPOSE 8000
 
