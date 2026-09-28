@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install --no-cache-dir django numpy pandas opencv-python-headless pymysql
+RUN pip install --no-cache-dir django numpy pandas opencv-python-headless pymysql Pillow
 
 EXPOSE 8000
 
